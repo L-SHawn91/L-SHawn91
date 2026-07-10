@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">SHawn Ecosystem Premium Banner</title>
-  <desc id="desc">High-contrast premium visual map for GitHub profile</desc>
+<svg width="1400" height="360" viewBox="0 0 1400 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SHawn Open Source Banner</title>
+  <desc id="desc">Public-safe hero banner for SHawn GitHub profile</desc>
 
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -17,119 +17,43 @@
       <stop offset="0%" stop-color="#111827" stop-opacity="0.97"/>
       <stop offset="100%" stop-color="#0b1220" stop-opacity="0.86"/>
     </linearGradient>
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000" flood-opacity="0.45"/>
-    </filter>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="8"/>
     </filter>
-
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
       <path d="M0 32 H32 M32 0 V32" stroke="#1f2937" stroke-opacity="0.5" stroke-width="0.5" />
     </pattern>
-
     <style>
-      .h1{font:700 42px/1.1 'Inter','Segoe UI',Arial,sans-serif;fill:#f8fafc}
+      .h1{font:700 46px/1.1 'Inter','Segoe UI',Arial,sans-serif;fill:#f8fafc}
       .h2{font:500 20px/1.2 'Inter','Segoe UI',Arial,sans-serif;fill:#bfdbfe}
-      .kpi{font:700 28px/1.1 'Inter','Segoe UI',Arial,sans-serif;fill:#f8fafc;text-anchor:middle}
+      .kpi{font:700 26px/1.1 'Inter','Segoe UI',Arial,sans-serif;fill:#f8fafc;text-anchor:middle}
       .kpiSub{font:500 13px/1.1 'Inter','Segoe UI',Arial,sans-serif;fill:#94a3b8;text-anchor:middle}
-      .cardTitle{font:600 24px/1.2 'Inter','Segoe UI',Arial,sans-serif;fill:#e2e8f0;text-anchor:middle}
-      .cardBody{font:500 14px/1.2 'Inter','Segoe UI',Arial,sans-serif;fill:#94a3b8;text-anchor:middle}
-      .tiny{font:600 12px/1.2 'Inter','Segoe UI',Arial,sans-serif;fill:#cbd5e1;text-anchor:middle}
     </style>
   </defs>
 
-  <rect width="1400" height="560" fill="url(#bg)"/>
-  <rect width="1400" height="560" fill="url(#grid)"/>
-  <rect x="60" y="40" width="1280" height="480" rx="26" fill="none" stroke="url(#line)" opacity="0.45"/>
-  <ellipse cx="200" cy="190" rx="330" ry="190" fill="#38bdf810"/>
+  <rect width="1400" height="360" fill="url(#bg)"/>
+  <rect width="1400" height="360" fill="url(#grid)"/>
+  <rect x="50" y="34" width="1300" height="292" rx="24" fill="none" stroke="url(#line)" opacity="0.45"/>
+  <ellipse cx="220" cy="150" rx="330" ry="150" fill="#38bdf810"/>
 
-  <text x="82" y="96" class="h2">SHAWN ECOSYSTEM · PUBLIC PROFILE</text>
-  <text x="82" y="142" class="h1">Research Ops + Content Delivery</text>
-  <text x="82" y="174" class="h2">Public-facing open-source map first</text>
+  <text x="90" y="120" class="h2">SHAWN · OPEN SOURCE PROFILE</text>
+  <text x="90" y="176" class="h1">Research Ops · Document QA · Automation</text>
+  <text x="90" y="212" class="h2">공개 오픈소스 산출물 중심의 프로필</text>
 
-  <g transform="translate(82 203)">
-    <rect x="0" y="0" width="180" height="64" rx="14" fill="url(#card)" stroke="#60a5fa" stroke-opacity="0.45"/>
-    <text x="90" y="33" class="kpi">3 Layers</text>
-    <text x="90" y="53" class="kpiSub">SH / SHio / SHide</text>
+  <g transform="translate(90 240)">
+    <rect x="0" y="0" width="190" height="64" rx="14" fill="url(#card)" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="95" y="28" class="kpi">8 Repos</text>
+    <text x="95" y="50" class="kpiSub">Public open source</text>
 
-    <rect x="200" y="0" width="220" height="64" rx="14" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.45"/>
-    <text x="310" y="33" class="kpi">Public-safe</text>
-    <text x="310" y="53" class="kpiSub">Boundary-based design</text>
+    <rect x="210" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="325" y="28" class="kpi">Evidence-first</text>
+    <text x="325" y="50" class="kpiSub">Research knowledge infra</text>
 
-    <rect x="450" y="0" width="200" height="64" rx="14" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.45"/>
-    <text x="550" y="33" class="kpi">8 Public</text>
-    <text x="550" y="53" class="kpiSub">Open repositories</text>
+    <rect x="460" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="575" y="28" class="kpi">Composable</text>
+    <text x="575" y="50" class="kpiSub">Reusable independent modules</text>
   </g>
 
-  <!-- core -->
-  <g filter="url(#shadow)" transform="translate(690 290)">
-    <rect x="-250" y="-72" width="500" height="144" rx="24" fill="url(#card)" stroke="#93c5fd"/>
-    <text x="0" y="-35" class="cardTitle">SHawn Umbrella</text>
-    <text x="0" y="-8" class="cardBody">Policy, control plane, and boundary governance</text>
-    <text x="0" y="16" class="cardBody">Open-source output is intentionally published as public layer only</text>
-  </g>
-
-  <!-- connection lines -->
-  <g stroke="url(#line)" stroke-width="2.2" opacity="0.9" fill="none">
-    <path d="M690 218 C625 240 560 265 520 305"/>
-    <path d="M690 218 C690 265 690 305 690 340"/>
-    <path d="M690 218 C755 240 825 265 870 305"/>
-    <path d="M690 250 C690 320 690 380 690 420"/>
-  </g>
-
-  <!-- SH layer -->
-  <g filter="url(#shadow)" transform="translate(470 320)">
-    <rect x="-205" y="-72" width="410" height="120" rx="20" fill="url(#card)" stroke="#34d399"/>
-    <text x="0" y="-35" class="cardTitle">SH Layer</text>
-    <rect x="-180" y="-8" width="140" height="58" rx="12" fill="#052e16"/>
-    <text x="-110" y="22" class="tiny">Profile boundary</text>
-    <rect x="-28" y="-8" width="220" height="58" rx="12" fill="#14532d"/>
-    <text x="82" y="22" class="tiny">Execution rules</text>
-  </g>
-
-  <!-- SHio layer -->
-  <g filter="url(#shadow)" transform="translate(690 340)">
-    <rect x="-215" y="-72" width="430" height="120" rx="20" fill="url(#card)" stroke="#f59e0b"/>
-    <text x="0" y="-35" class="cardTitle">SHio Layer</text>
-    <rect x="-190" y="-8" width="110" height="58" rx="12" fill="#7c2d12"/>
-    <text x="-135" y="22" class="tiny">paper-assist</text>
-    <rect x="-70" y="-8" width="110" height="58" rx="12" fill="#92400e"/>
-    <text x="-15" y="22" class="tiny">paper-mapping</text>
-    <rect x="50" y="-8" width="130" height="58" rx="12" fill="#b45309"/>
-    <text x="115" y="22" class="tiny">academic</text>
-  </g>
-
-  <!-- SHide layer -->
-  <g filter="url(#shadow)" transform="translate(910 320)">
-    <rect x="-215" y="-72" width="430" height="120" rx="20" fill="url(#card)" stroke="#93c5fd"/>
-    <text x="0" y="-35" class="cardTitle">SHide Layer</text>
-    <rect x="-180" y="-8" width="80" height="58" rx="12" fill="#1e40af"/>
-    <text x="-140" y="22" class="tiny">IG</text>
-    <rect x="-90" y="-8" width="80" height="58" rx="12" fill="#2563eb"/>
-    <text x="-50" y="22" class="tiny">YT</text>
-    <rect x="0" y="-8" width="100" height="58" rx="12" fill="#3b82f6"/>
-    <text x="50" y="22" class="tiny">BLOG</text>
-  </g>
-
-  <!-- public surface -->
-  <rect x="350" y="440" width="700" height="66" rx="16" fill="#090f1f" stroke="#facc15" stroke-width="1.4"/>
-  <text x="700" y="467" class="cardBody" text-anchor="middle">Public OSS Surface</text>
-
-  <g transform="translate(360 472)">
-    <rect x="0" y="-11" width="110" height="38" rx="10" fill="#111827" stroke="#93c5fd"/>
-    <text x="55" y="12" class="tiny">EvidenceMap</text>
-    <rect x="122" y="-11" width="90" height="38" rx="10" fill="#111827" stroke="#a78bfa"/>
-    <text x="167" y="12" class="tiny">shawn-hwp</text>
-    <rect x="220" y="-11" width="130" height="38" rx="10" fill="#111827" stroke="#22d3ee"/>
-    <text x="285" y="12" class="tiny">paper-map-lite</text>
-    <rect x="364" y="-11" width="130" height="38" rx="10" fill="#111827" stroke="#34d399"/>
-    <text x="429" y="12" class="tiny">sync-lite</text>
-    <rect x="508" y="-11" width="102" height="38" rx="10" fill="#111827" stroke="#fde047"/>
-    <text x="559" y="12" class="tiny">SHawn-WEB</text>
-  </g>
-
-  <ellipse cx="1280" cy="470" rx="6" ry="6" fill="#67e8f9" filter="url(#glow)"/>
-  <ellipse cx="120" cy="110" rx="5" ry="5" fill="#a78bfa" filter="url(#glow)"/>
-  <text x="82" y="525" class="cardBody">Public-safe map only · private workspace details omitted</text>
+  <circle cx="1290" cy="90" r="6" fill="#67e8f9" filter="url(#glow)"/>
+  <circle cx="1210" cy="280" r="5" fill="#a78bfa" filter="url(#glow)"/>
 </svg>

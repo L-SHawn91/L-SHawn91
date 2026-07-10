@@ -1,7 +1,7 @@
-# SHawn Ecosystem Profile
+# SHawn Open Source Profile
 
 <p align="center">
-  <img src="./shawn-ecosystem-hero.svg" alt="SHawn Ecosystem Premium Banner" width="100%"/>
+  <img src="./shawn-ecosystem-hero.svg" alt="SHawn Open Source Banner" width="100%"/>
 </p>
 
 <p align="center">
@@ -13,19 +13,18 @@
 <p align="center">
   <img src="https://img.shields.io/github/followers/L-SHawn91?style=flat-square&label=Followers" />
   <img src="https://img.shields.io/github/stars/L-SHawn91?style=flat-square&label=Stars" />
-  <img src="https://img.shields.io/github/repo-size/L-SHawn91/L-SHawn91?style=flat-square" />
 </p>
 
 <p align="center">
-  <i>공개 가능한 레포만 보여주는 SHawn 아키텍처 카드</i>
+  <i>공개 오픈소스 산출물 중심으로 정리한 SHawn 프로필</i>
 </p>
 
 ---
 
-## 01. 아키텍처 카드
+## 01. 오픈소스 맵
 
 <p align="center">
-  <img src="./shawn-architecture-card.svg" alt="SHawn Public Architecture Card" width="100%"/>
+  <img src="./shawn-architecture-card.svg" alt="SHawn Open Source Map" width="100%"/>
 </p>
 
 ---
@@ -53,7 +52,7 @@
 ## 03. 운영 철학
 
 - **Public-safe boundary**: 공개 레포와 내부 운영을 분리해 외부 노출 경로를 최소화.
-- **Composable design**: 공개 레이어는 독립 모듈처럼 연결.
+- **Composable design**: 공개 모듈은 독립적으로 사용 가능하게 설계.
 - **Evidence-ready structure**: 산출물과 규약을 한눈에 연결 가능한 구조로 정리.
 
 ---
