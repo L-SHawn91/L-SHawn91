@@ -22,12 +22,28 @@
   <img src="./shawn-ecosystem-map.jpg" alt="SHawn Ecosystem Map" width="100%"/>
 </p>
 
-모든 모듈은 SHawn 생태계의 공통 규약 위에서 서로 연결됩니다.
-**Evidence → Document → Route → Deliver** 파이프라인이 생태계의 중심 흐름입니다.
+공개 레포의 README에 명시된 역할을 기준으로, 이 맵은 다음 흐름을 보여줍니다.
+**Search → Map → EvidenceMap → Coordinate → Router → Document QA → Web**
+
+이는 공개 OSS 참조 스택의 역할 지도이며, 모든 단계를 하나의 자동 실행 경로로 주장하지는 않습니다.
 
 ---
 
-## 02. Ecosystem Modules
+## 02. Public Stack Roles
+
+| Map stage | Public module | Role stated in its README |
+|---|---|---|
+| Search | [shawn-bio-search-lite](https://github.com/L-SHawn91/shawn-bio-search-lite) | Public scholarly metadata adapters |
+| Map | [paper-map-lite](https://github.com/L-SHawn91/paper-map-lite) | Claim/evidence graph schema |
+| EvidenceMap | [SHawn-EvidenceMap](https://github.com/L-SHawn91/SHawn-EvidenceMap) | Evidence maps and public reports |
+| Coordinate | [shawn-sync-lite](https://github.com/L-SHawn91/shawn-sync-lite) | Public-safe manifests and boundary templates |
+| Router | [newbrain-router](https://github.com/L-SHawn91/newbrain-router) | Dry-run routing and approval-gate examples |
+| Document QA | [SHawn-hwp](https://github.com/L-SHawn91/SHawn-hwp), [shawn-docx-qa](https://github.com/L-SHawn91/shawn-docx-qa) | Conversion and document structure QA |
+| Web | [SHawn-WEB](https://github.com/L-SHawn91/SHawn-WEB) | Public hub and demo surface |
+
+---
+
+## 03. Ecosystem Modules
 
 ### 🔬 Research Intelligence
 근거 수집과 지식 매핑을 담당하는 생태계의 입력단.
@@ -51,15 +67,15 @@
 
 ---
 
-## 03. Ecosystem Principles
+## 04. Ecosystem Principles
 
-- **One pipeline**: 근거 → 문서 → 라우팅 → 서비스가 단일 흐름으로 연결.
+- **Public reference stack**: Search → Map → EvidenceMap → Coordinate → Router → Document QA → Web 역할이 공개 README에 명시됨.
 - **Composable modules**: 각 모듈은 독립 실행 가능하되 공통 규약으로 상호 연동.
 - **Evidence-first**: 모든 산출물은 추적 가능한 근거 위에서 생성.
 
 ---
 
-## 04. Quick Links
+## 05. Quick Links
 
 - [🔬 EvidenceMap Demo](https://l-shawn91.github.io/SHawn-EvidenceMap/)
 - [🌐 SHawn-WEB](https://shawnlab.vercel.app)
