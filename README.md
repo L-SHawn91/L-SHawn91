@@ -17,50 +17,16 @@
 </p>
 
 <p align="center">
-  <i>공개 가능한 레포만 보여주는 SHawn 생태계 아키텍처 카드</i>
+  <i>공개 가능한 레포만 보여주는 SHawn 아키텍처 카드</i>
 </p>
 
 ---
 
-## 01. 시스템 맵
+## 01. 아키텍처 카드
 
-```mermaid
-flowchart TB
-    A["SHawn Ecosystem\nUmbrella"]
-
-    A --> B["SH\nPersonal Operations"]
-    A --> C["SHio\nResearch"]
-    A --> D["SHide\nContent Growth"]
-
-    B --> B1["Public interface to private ops"]
-    B --> B2["Personal workflow policy"]
-
-    C --> C1["paper-assist"]
-    C --> C2["paper-mapping"]
-    C --> C3["academic-research"]
-
-    D --> D1["SHide-IG"]
-    D --> D2["SHide-YT"]
-    D --> D3["SHide-BLOG"]
-
-    A --> O["Public OSS Surface"]
-    O --> O1["SHawn-EvidenceMap"]
-    O --> O2["SHawn-hwp"]
-    O --> O3["SHawn-WEB"]
-    O --> O4["newbrain-router"]
-    O --> O5["shawn-docx-qa"]
-    O --> O6["paper-map-lite"]
-    O --> O7["shawn-sync-lite"]
-    O --> O8["shawn-bio-search-lite"]
-
-    classDef core fill:#0f172a,stroke:#60a5fa,color:#f8fafc,stroke-width:2.5px;
-    classDef layer fill:#111827,stroke:#34d399,color:#e2e8f0,stroke-width:1.6px;
-    classDef public fill:#111827,stroke:#fde047,color:#fef3c7,stroke-width:1.4px;
-
-    class A core
-    class B,C,D layer
-    class B1,B2,C1,C2,C3,D1,D2,D3,O,O1,O2,O3,O4,O5,O6,O7,O8 public
-```
+<p align="center">
+  <img src="./shawn-architecture-card.svg" alt="SHawn Public Architecture Card" width="100%"/>
+</p>
 
 ---
 
