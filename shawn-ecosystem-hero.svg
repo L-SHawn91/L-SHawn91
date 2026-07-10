@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1400" height="360" viewBox="0 0 1400 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">SHawn Open Source Banner</title>
-  <desc id="desc">Public-safe hero banner for SHawn GitHub profile</desc>
+  <title id="title">SHawn Ecosystem Banner</title>
+  <desc id="desc">Hero banner for the SHawn ecosystem GitHub profile</desc>
 
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -36,22 +36,22 @@
   <rect x="50" y="34" width="1300" height="292" rx="24" fill="none" stroke="url(#line)" opacity="0.45"/>
   <ellipse cx="220" cy="150" rx="330" ry="150" fill="#38bdf810"/>
 
-  <text x="90" y="120" class="h2">SHAWN · OPEN SOURCE PROFILE</text>
-  <text x="90" y="176" class="h1">Research Ops · Document QA · Automation</text>
-  <text x="90" y="212" class="h2">공개 오픈소스 산출물 중심의 프로필</text>
+  <text x="90" y="120" class="h2">SHAWN ECOSYSTEM</text>
+  <text x="90" y="176" class="h1">Research · Documents · Orchestration · Service</text>
+  <text x="90" y="212" class="h2">근거 기반 연구부터 서비스 전달까지, 하나로 연결된 지능형 스택</text>
 
   <g transform="translate(90 240)">
-    <rect x="0" y="0" width="190" height="64" rx="14" fill="url(#card)" stroke="#60a5fa" stroke-opacity="0.5"/>
-    <text x="95" y="28" class="kpi">8 Repos</text>
-    <text x="95" y="50" class="kpiSub">Public open source</text>
+    <rect x="0" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#60a5fa" stroke-opacity="0.5"/>
+    <text x="115" y="28" class="kpi">Evidence-first</text>
+    <text x="115" y="50" class="kpiSub">Research knowledge infra</text>
 
-    <rect x="210" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.5"/>
-    <text x="325" y="28" class="kpi">Evidence-first</text>
-    <text x="325" y="50" class="kpiSub">Research knowledge infra</text>
+    <rect x="250" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#22d3ee" stroke-opacity="0.5"/>
+    <text x="365" y="28" class="kpi">Pipeline-driven</text>
+    <text x="365" y="50" class="kpiSub">Evidence → Document → Deliver</text>
 
-    <rect x="460" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.5"/>
-    <text x="575" y="28" class="kpi">Composable</text>
-    <text x="575" y="50" class="kpiSub">Reusable independent modules</text>
+    <rect x="500" y="0" width="230" height="64" rx="14" fill="url(#card)" stroke="#a78bfa" stroke-opacity="0.5"/>
+    <text x="615" y="28" class="kpi">Composable</text>
+    <text x="615" y="50" class="kpiSub">Independent ecosystem modules</text>
   </g>
 
   <circle cx="1290" cy="90" r="6" fill="#67e8f9" filter="url(#glow)"/>
