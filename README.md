@@ -19,7 +19,7 @@
 ## 01. Ecosystem Map
 
 <p align="center">
-  <img src="./shawn-architecture-card.svg" alt="SHawn Ecosystem Map" width="100%"/>
+  <img src="./shawn-ecosystem-map.jpg" alt="SHawn Ecosystem Map" width="100%"/>
 </p>
 
 모든 모듈은 SHawn 생태계의 공통 규약 위에서 서로 연결됩니다.
