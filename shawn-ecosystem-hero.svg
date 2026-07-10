@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SHawn Ecosystem</title>
+  <desc id="desc">A generated visual map of SH, SHio, SHide layers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="45%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+    <filter id="soft2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="560" fill="url(#bg)" />
+
+  <rect x="55" y="45" width="1290" height="470" rx="24" fill="#020617" fill-opacity="0.32" filter="url(#soft)"/>
+  <text x="700" y="100" text-anchor="middle" fill="#f8fafc" font-size="42" font-family="Arial, Helvetica, sans-serif" font-weight="700">SHawn Ecosystem</text>
+  <text x="700" y="138" text-anchor="middle" fill="#bae6fd" font-size="24" font-family="Arial, Helvetica, sans-serif">Research · Personal Ops · Growth Content Layer</text>
+
+  <line x1="700" y1="190" x2="380" y2="320" stroke="#7dd3fc" stroke-width="4"/>
+  <line x1="700" y1="190" x2="700" y2="330" stroke="#7dd3fc" stroke-width="4"/>
+  <line x1="700" y1="190" x2="1020" y2="320" stroke="#7dd3fc" stroke-width="4"/>
+  <line x1="700" y1="190" x2="700" y2="260" stroke="#22d3ee" stroke-width="5"/>
+
+  <g filter="url(#soft2)">
+    <circle cx="700" cy="190" r="78" fill="#312e81" stroke="#c7d2fe" stroke-width="4"/>
+    <text x="700" y="178" text-anchor="middle" fill="#e0e7ff" font-size="34" font-family="Arial" font-weight="700">SHawn</text>
+    <text x="700" y="212" text-anchor="middle" fill="#bfdbfe" font-size="20" font-family="Arial">umbrella</text>
+
+    <rect x="232" y="280" width="260" height="120" rx="16" fill="#16a34a" stroke="#bbf7d0" stroke-width="3"/>
+    <text x="362" y="325" text-anchor="middle" fill="#ecfccb" font-size="28" font-family="Arial" font-weight="700">SH</text>
+    <text x="362" y="352" text-anchor="middle" fill="#dcfce7" font-size="18" font-family="Arial">Personal</text>
+
+    <rect x="570" y="300" width="260" height="120" rx="16" fill="#f59e0b" stroke="#fde68a" stroke-width="3"/>
+    <text x="700" y="345" text-anchor="middle" fill="#fffbeb" font-size="28" font-family="Arial" font-weight="700">SHio</text>
+    <text x="700" y="372" text-anchor="middle" fill="#fef3c7" font-size="18" font-family="Arial">Research</text>
+
+    <rect x="908" y="280" width="260" height="120" rx="16" fill="#0284c7" stroke="#bfdbfe" stroke-width="3"/>
+    <text x="1038" y="325" text-anchor="middle" fill="#dbeafe" font-size="28" font-family="Arial" font-weight="700">SHide</text>
+    <text x="1038" y="352" text-anchor="middle" fill="#dbeafe" font-size="18" font-family="Arial">Content &amp; Growth</text>
+
+    <g>
+      <rect x="180" y="420" width="220" height="70" rx="12" fill="#22c55e" opacity="0.95"/>
+      <text x="290" y="458" text-anchor="middle" fill="#052e16" font-size="18" font-weight="700" font-family="Arial">SH-sync</text>
+      <text x="290" y="478" text-anchor="middle" fill="#052e16" font-size="13" font-family="Arial">Private Layer</text>
+    </g>
+    <g>
+      <rect x="420" y="420" width="240" height="70" rx="12" fill="#16a34a" opacity="0.95"/>
+      <text x="540" y="458" text-anchor="middle" fill="#f0fdf4" font-size="14" font-weight="700" font-family="Arial">real-estate / investment / career</text>
+    </g>
+    <g>
+      <rect x="670" y="420" width="280" height="70" rx="12" fill="#f97316" opacity="0.95"/>
+      <text x="810" y="458" text-anchor="middle" fill="#431407" font-size="16" font-weight="700" font-family="Arial">paper-assist / paper-mapping</text>
+    </g>
+    <g>
+      <rect x="982" y="420" width="140" height="70" rx="12" fill="#0284c7" opacity="0.95"/>
+      <text x="1052" y="458" text-anchor="middle" fill="#ecfeff" font-size="16" font-weight="700" font-family="Arial">SHide-IG</text>
+    </g>
+    <g>
+      <rect x="1142" y="420" width="140" height="70" rx="12" fill="#0369a1" opacity="0.95"/>
+      <text x="1212" y="458" text-anchor="middle" fill="#ecfeff" font-size="16" font-weight="700" font-family="Arial">SHide-YT</text>
+    </g>
+
+    <rect x="470" y="440" width="460" height="88" rx="16" fill="#4f46e5" stroke="#c7d2fe"/>
+    <text x="700" y="478" text-anchor="middle" fill="#eef2ff" font-size="21" font-family="Arial" font-weight="700">Public OSS Surface</text>
+    <text x="700" y="506" text-anchor="middle" fill="#e0e7ff" font-size="16" font-family="Arial">EvidenceMap / HWP / Docs QA / Routers</text>
+  </g>
+
+  <text x="700" y="532" text-anchor="middle" fill="#bae6fd" font-size="18" font-family="Arial">Generated visual map (updated with repository boundaries)</text>
+</svg>

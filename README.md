@@ -1,6 +1,8 @@
 # Hi, I'm **SHawn** 👋
 
-## 숀 생태계 (SHawn) — GitHub 대표 지도
+## 숀 생태계 (SHawn) — GitHub 대표 지도 (생성형 대표 이미지 적용)
+
+![SHawn Ecosystem 대표이미지](./shawn-ecosystem-hero.svg)
 
 <p align="center">
   <a href="https://github.com/L-SHawn91?tab=followers"><img src="https://img.shields.io/github/followers/L-SHawn91?style=flat-square" /></a>
