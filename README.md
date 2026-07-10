@@ -1,47 +1,47 @@
-# SHawn / SHawn Ecosystem
-
-<div align="center">
-  <img src="./shawn-ecosystem-hero.svg" width="100%" alt="SHawn Ecosystem Premium Banner"/>
-</div>
+# SHawn Ecosystem Profile
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Private%2BPublic%20Hybrid-111827?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Area-Research%20Ops%20%7C%20Automation-2563eb?style=for-the-badge&logo=azurepipelines&logoColor=white" />
-  <img src="https://img.shields.io/badge/Policy-Private%20First-059669?style=for-the-badge&logo=protonmail&logoColor=white" />
+  <img src="./shawn-ecosystem-hero.svg" alt="SHawn Ecosystem Premium Banner" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/L-SHawn91?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/github/stars/L-SHawn91?style=flat-square&logo=github" />
-  <img src="https://img.shields.io/badge/Repos-8-lightgrey?style=flat-square" />
+  <img src="https://img.shields.io/badge/Mode-Private%20%2F%20Public-0f172a?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Research%20Ops%20%26%20Automation-0ea5e9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Design-Premium%20Dark%20System-7c3aed?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <i>Private-safe architecture, 공개 가능한 산출물을 중심으로 정리한 SHawn 생태계 지도</i>
+  <img src="https://img.shields.io/github/followers/L-SHawn91?style=flat-square&label=Followers" />
+  <img src="https://img.shields.io/github/stars/L-SHawn91?style=flat-square&label=Stars" />
+  <img src="https://img.shields.io/github/repo-size/L-SHawn91/L-SHawn91?style=flat-square" />
+</p>
+
+<p align="center">
+  <i>생태계 경계(SH / SHio / SHide)는 유지하되, 공개 가능한 공개 산출물만 고해상도 맵으로 정리한 프로필</i>
 </p>
 
 ---
 
-## 01) Architecture Snapshot
+## 01. 시스템 맵
 
 ```mermaid
 flowchart TB
-    A["SHawn\nUmbrella"]
+    A["SHawn Ecosystem<br/>Umbrella"]
 
-    A --> B["SH\nPersonal layer"]
-    A --> C["SHio\nResearch layer"]
-    A --> D["SHide\nContent & Growth layer"]
+    A --> B["SH\nPersonal Operations"]
+    A --> C["SHio\nResearch"]
+    A --> D["SHide\nContent Growth"]
 
     B --> B1["SH-sync\nprivate control plane"]
-    B --> B2["Private domains\n(real estate, investment, career)"]
+    B --> B2["라이프\n투자\n커리어"]
 
-    C --> C1["paper-assist\n(private)"]
-    C --> C2["paper-mapping\n(private)"]
-    C --> C3["academic-research\n(private)"]
+    C --> C1["paper-assist\nprivate"]
+    C --> C2["paper-mapping\nprivate"]
+    C --> C3["academic-research\nprivate"]
 
-    D --> D1["SHide-IG\n(private)"]
-    D --> D2["SHide-YT\n(private)"]
-    D --> D3["SHide-BLOG\n(private)"]
+    D --> D1["SHide-IG\nprivate"]
+    D --> D2["SHide-YT\nprivate"]
+    D --> D3["SHide-BLOG\nprivate"]
 
     A --> O["Public OSS Surface"]
     O --> O1["SHawn-EvidenceMap"]
@@ -53,10 +53,10 @@ flowchart TB
     O --> O7["shawn-sync-lite"]
     O --> O8["shawn-bio-search-lite"]
 
-    classDef core fill:#111827,color:#E2E8F0,stroke:#60A5FA,stroke-width:2px;
-    classDef layer fill:#1E293B,color:#E2E8F0,stroke:#34D399,stroke-width:1.5px;
-    classDef private fill:#1f1b3d,color:#E9D5FF,stroke:#C4B5FD,stroke-dasharray:6 4,stroke-width:1.5px;
-    classDef public fill:#1f2937,color:#FEF08A,stroke:#FDE68A,stroke-width:1.5px;
+    classDef core fill:#0f172a,stroke:#60a5fa,color:#f8fafc,stroke-width:2.5px;
+    classDef layer fill:#111827,stroke:#34d399,color:#e2e8f0,stroke-width:1.6px;
+    classDef private fill:#181132,stroke:#a78bfa,color:#ede9fe,stroke-width:1.4px,stroke-dasharray:5 4;
+    classDef public fill:#111827,stroke:#fde047,color:#fef3c7,stroke-width:1.4px;
 
     class A core
     class B,C,D layer
@@ -66,31 +66,38 @@ flowchart TB
 
 ---
 
-## 02) 공개 레포 (Public Repos)
+## 02. 공개 레포
 
-| Domain | Repositories | 한 줄 요약 |
-|---|---|---|
-| **Research / Knowledge Infra** | [SHawn-EvidenceMap](https://github.com/L-SHawn91/SHawn-EvidenceMap), [paper-map-lite](https://github.com/L-SHawn91/paper-map-lite), [shawn-bio-search-lite](https://github.com/L-SHawn91/shawn-bio-search-lite) | 연구 산출물의 증거 흐름과 지식 맵을 가볍게 운영 |
-| **Document QA** | [SHawn-hwp](https://github.com/L-SHawn91/SHawn-hwp), [shawn-docx-qa](https://github.com/L-SHawn91/shawn-docx-qa) | 문서 변환·품질 검증·포맷 정합성 자동화 |
-| **Tools / Orchestration** | [newbrain-router](https://github.com/L-SHawn91/newbrain-router), [shawn-sync-lite](https://github.com/L-SHawn91/shawn-sync-lite) | 라우팅/동기화 규약 모듈 |
-| **Service / Web** | [SHawn-WEB](https://github.com/L-SHawn91/SHawn-WEB) | 운영형 웹 체계 및 대시보드 진입점 |
+### Research / Knowledge Infrastructure
+- [SHawn-EvidenceMap](https://github.com/L-SHawn91/SHawn-EvidenceMap)
+- [paper-map-lite](https://github.com/L-SHawn91/paper-map-lite)
+- [shawn-bio-search-lite](https://github.com/L-SHawn91/shawn-bio-search-lite)
+
+### Document QA & Automation
+- [SHawn-hwp](https://github.com/L-SHawn91/SHawn-hwp)
+- [shawn-docx-qa](https://github.com/L-SHawn91/shawn-docx-qa)
+
+### Router / Orchestration Layer
+- [newbrain-router](https://github.com/L-SHawn91/newbrain-router)
+- [shawn-sync-lite](https://github.com/L-SHawn91/shawn-sync-lite)
+
+### Service
+- [SHawn-WEB](https://github.com/L-SHawn91/SHawn-WEB)
 
 ---
 
-## 03) 운영 원칙
+## 03. 운영 철학
 
-- **Layered-by-Domain**: SH / SHio / SHide의 분리 원칙을 유지
-- **Public-safe by default**: 대외 공개 항목은 경계를 명확히 분리
-- **Reusable & composable**: 연구/문서/오케스트레이션 모듈을 독립 컴포넌트로 공개
+- **Private-first boundary**: 내부 데이터/전략은 비공개, 외부 노출은 오픈 소스/협업 중심.
+- **Composable design**: 공개 레이어는 독립 모듈처럼 연결.
+- **Evidence-ready structure**: 산출물과 규약을 한눈에 연결 가능한 구조로 설계.
 
 ---
 
-## 04) Quick Links
+## 04. Quick Links
 
 - [🔬 EvidenceMap Demo](https://l-shawn91.github.io/SHawn-EvidenceMap/)
 - [🌐 SHawn-WEB](https://shawnlab.vercel.app)
-- [📬 제어면(프레임)](https://github.com/L-SHawn91/SH-sync) · [학습/연구 제어면](https://github.com/L-SHawn91/SHio-sync) · [수익/콘텐츠 제어면](https://github.com/L-SHawn91/SHide-sync)
+- 제어면: `SH-sync`, `SHio-sync`, `SHide-sync`
 
----
-
-<p align="center"><sub>Public profile surface only — private layer state is preserved in control-plane repos.</sub></p>
+<p align="center"><sub>Public profile surface only. Internal state maintained in control-plane repos.</sub></p>
