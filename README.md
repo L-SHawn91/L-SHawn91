@@ -10,31 +10,31 @@
 
 ```mermaid
 flowchart LR
-    root[<b>SHawn</b> Umbrella] --> personal[SH: Personal layer]
-    root --> research[SHio: Bio/Research layer]
-    root --> side[SHide: Content & Growth layer]
+    root["SHawn Umbrella"] --> personal["SH: Personal layer"]
+    root --> research["SHio: Bio/Research layer"]
+    root --> side["SHide: Content & Growth layer"]
 
-    personal --> p1[SH-sync<br/>(personal control plane)]
-    personal --> p2[Private workspaces<br/>(real-estate, investment, career)]
+    personal --> p1["SH-sync\n(personal control plane)"]
+    personal --> p2["Private workspaces\n(real-estate, investment, career)"]
 
-    research --> r1[SHawn-paper-assist<br/>(private)]
-    research --> r2[SHawn-paper-mapping<br/>(private)]
-    research --> r3[SHawn-academic-research<br/>(private)]
-    research --> r4[SHio private stack]
+    research --> r1["SHawn-paper-assist\n(private)"]
+    research --> r2["SHawn-paper-mapping\n(private)"]
+    research --> r3["SHawn-academic-research\n(private)"]
+    research --> r4["SHio private stack"]
 
-    side --> s1[SHide-IG<br/>(private)]
-    side --> s2[SHide-YT<br/>(private)]
-    side --> s3[SHide-BLOG<br/>(private)]
+    side --> s1["SHide-IG\n(private)"]
+    side --> s2["SHide-YT\n(private)"]
+    side --> s3["SHide-BLOG\n(private)"]
 
-    root --> open[Public OSS Surface]
-    open --> o1[SHawn-EvidenceMap]
-    open --> o2[SHawn-hwp]
-    open --> o3[SHawn-WEB]
-    open --> o4[newbrain-router]
-    open --> o5[shawn-docx-qa]
-    open --> o6[paper-map-lite]
-    open --> o7[shawn-sync-lite]
-    open --> o8[shawn-bio-search-lite]
+    root --> open["Public OSS Surface"]
+    open --> o1["SHawn-EvidenceMap"]
+    open --> o2["SHawn-hwp"]
+    open --> o3["SHawn-WEB"]
+    open --> o4["newbrain-router"]
+    open --> o5["shawn-docx-qa"]
+    open --> o6["paper-map-lite"]
+    open --> o7["shawn-sync-lite"]
+    open --> o8["shawn-bio-search-lite"]
 ```
 
 ### Public repos
