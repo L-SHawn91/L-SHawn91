@@ -11,8 +11,22 @@
 </p>
 
 <p align="center">
-  <i>연구 근거에서 서비스 전달까지, 하나로 이어지는 SHawn 생태계</i>
+  <i>연구 근거에서 재현 가능한 산출물까지, 하나로 이어지는 SHawn 생태계</i>
 </p>
+
+---
+
+## Featured Public Project — SHawn EvidenceMap
+
+**[SHawn EvidenceMap](https://github.com/L-SHawn91/SHawn-EvidenceMap)** is a free Apache-2.0, local-first metadata bridge for DOI, PMID, OpenAlex, accession, CSV, RIS, and BibTeX workflows.
+
+It normalizes identifiers, records merge/reject decisions and provenance, verifies a local SQLite snapshot, and exports deterministic handoff files.
+
+The project currently has **zero independently documented external runs** and is looking for its **first three early-validation workflows** using approximately 20–250 public metadata records. Honest failure reports are welcome. No SLA, custom development, private-data handling, or ongoing support is provided. Do not submit private PDFs, manuscripts, patient/sample data, credentials, or unpublished research data.
+
+- [Watch the recorded 60-second demo](https://l-shawn91.github.io/SHawn-EvidenceMap/assets/pilot-demo-60s.mp4)
+- [Join free early validation](https://l-shawn91.github.io/SHawn-EvidenceMap/pilot.html)
+- [Open Discussion #9](https://github.com/L-SHawn91/SHawn-EvidenceMap/discussions/9)
 
 ---
 
@@ -61,8 +75,8 @@
 - [newbrain-router](https://github.com/L-SHawn91/newbrain-router) — 지능형 라우팅
 - [shawn-sync-lite](https://github.com/L-SHawn91/shawn-sync-lite) — 생태계 동기화 규약
 
-### 🌐 Service
-생태계 산출물이 사용자에게 닿는 전달 계층.
+### 🌐 Public Web
+공개 산출물을 탐색하고 검토하는 웹 계층.
 - [SHawn-WEB](https://github.com/L-SHawn91/SHawn-WEB) — 웹 서비스 진입점
 
 ---
